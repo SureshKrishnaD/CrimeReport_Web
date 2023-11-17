@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE edge">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Crime Report Portal</title>
+        <script>"script.js"</script>
+        <link rel="stylesheet" href="acss.css">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://kit.fontawesome.com/b22e7e3bd2.js" crossorigin="anonymous"></script>
+        <script src="script.js"></script>
+        <style>
+            h1 {
+  font-size: 50px;
+}
+            @import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                <img src="img 1.0.png" class="logo">
+                    <div class="brand">
+                          <h1><span>C</span>yber <span>S</span>olutions</h1>
+                      </div>
+                    <ul id="sidemenu">
+                        <li><a href="Main Page.html">Home</a></li>
+                        <li><a href="About.html">About</a></li>
+                        <li><a href="Complaint.html">Complaint Box</a></li>
+                        <li><a href="contact.html">Emergency Contact</a></li>
+                        <li><a href="login.html">Login</a></li>
+                    </ul>
+                </nav>
+                <br>
+                <br>
+                <br>
+                <br>
+                <div>
+                <h1 style="color: red"><b>Drop Your Complaint</b></h></div>
+            </div> 
+        </div>
+        <br>
+        <br>
+            <div class="container">
+                <form action="store_location.php" id="contactForm" method="post">
+                    <div class="alert"></div>
+        
+                    <div class="inputBox">
+                        <input type="text" id="name" placeholder="Enter your name" />
+                    </div>
+        
+                    <div class="inputBox">
+                        <input type="number" id="number" placeholder="Enter your number" />
+                    </div>
+        
+                    <div class="inputBox">
+                        <textarea id="msgContent" cols="30" rows="10" placeholder="Drop your complaint"></textarea>
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" id="latitude" name="latitude" placeholder="Latitude" readonly />
+                    </div>
+                    <div class="inputBox">
+                        <input type="text" id="longitude" name="longitude"placeholder="Longitude" readonly />
+                    </div>
+        
+                    <div class="inputBox">
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </div>
+                </form>
+            </div>
+        
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+            <script src="./mail.js"></script>
+            <span id="msg"></span>
+                    </div>
+                    </div>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="contact-left">
+                        
+                        <p><a href="mailto:cybersolutiontech3@gmail.com"><i class="fa-solid fa-envelope"></i></a>cybersolutiontech3@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i> +91 9626390111</p>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/cybersolutions.tech3.9"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="www.twitter.com"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://instagram.com/cybersolutions?igshid=YmMyMTA2M2Y="><i class="fa-brands fa-instagram"></i></a>
+                            <a href="linkedin.com/in/cybersolutions-tech3-a-tb3a605234"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        <div id="div1" class="fa"></div>
+        <br>
+        <br>
+        <div class="copyright">
+            <p>Copyright © </i>Cyber Solutions , 2023.</p>
+        </div>
+    </body>
+</html>
